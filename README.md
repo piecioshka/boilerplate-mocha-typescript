@@ -1,8 +1,5 @@
 # boilerplate-mocha-typescript
 
-[![travis-ci](https://api.travis-ci.org/piecioshka/boilerplate-mocha-typescript.svg?branch=master)](https://travis-ci.org/piecioshka/boilerplate-mocha-typescript)
-[![coveralls](https://coveralls.io/repos/github/piecioshka/boilerplate-mocha-typescript/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/boilerplate-mocha-typescript?branch=master)
-
 🍴 Starter with Mocha & TypeScript
 
 ## Features
@@ -23,4 +20,4 @@ npm test
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2019
+[The MIT License](http://piecioshka.mit-license.org) @ 2019-2020

@@ -13,18 +13,14 @@
         "clear": "rm -rf dist/ coverage/ .nyc_output/",
         "clear:all": "rm -rf node_modules/ && npm run clear",
         "test": "mocha -r ts-node/register test/specs/*",
-        "coverage": "nyc npm run test && nyc report --reporter=html",
-        "coveralls": "nyc npm run test && nyc report --reporter=text-lcov | coveralls -v"
-    },
-    "dependencies": {
-        "ts-node": "^8.10.2",
-        "typescript": "^3.9.5"
+        "coverage": "nyc npm run test && nyc report --reporter=html"
     },
     "devDependencies": {
         "chai": "^4.2.0",
-        "coveralls": "^3.1.0",
         "mocha": "^8.0.1",
-        "nyc": "^15.1.0"
+        "nyc": "^15.1.0",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.5"
     },
     "repository": {
         "type": "git",
