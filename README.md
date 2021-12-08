@@ -1,16 +1,23 @@
 # boilerplate-mocha-typescript
 
-🍴 Starter with Mocha & TypeScript
+🍴 Starter with Mocha (+Chai) & TypeScript
 
 ## Features
 
-* :white_check_mark: Mocha `v8.0.1`
-* :white_check_mark: TypeScript `v3.9.5`
+* :white_check_mark: Mocha `v9.1.3`
+* :white_check_mark: Chai `v4.3.4`
+* :white_check_mark: TypeScript `v4.5.2`
 
 ## Unit tests
 
 ```bash
 npm test
+```
+
+## Code Coverage
+
+```bash
+npm run coverage
 ```
 
 ## Related
@@ -20,4 +27,4 @@ npm test
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2019-2020
+[The MIT License](http://piecioshka.mit-license.org) @ 2019-2021

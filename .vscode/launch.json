@@ -13,7 +13,7 @@
                 "-r",
                 "ts-node/register",
                 "--colors",
-                "${workspaceFolder}/test/specs/*",
+                "${workspaceFolder}/test/*",
                 "--sort",
             ],
             "internalConsoleOptions": "openOnSessionStart"
