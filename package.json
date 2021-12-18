@@ -1,29 +1,29 @@
 {
-    "private": true,
-    "name": "boilerplate-mocha-typescript",
-    "description": "",
-    "version": "0.0.0",
-    "license": "MIT",
-    "author": {
-        "name": "Piotr Kowalski",
-        "email": "piecioshka@gmail.com",
-        "url": "https://piecioshka.pl/"
-    },
-    "scripts": {
-        "clear": "rm -rf dist/ coverage/ .nyc_output/",
-        "clear:all": "rm -rf node_modules/ && npm run clear",
-        "test": "mocha -r ts-node/register test/*",
-        "coverage": "nyc npm run test && nyc report --reporter=html"
-    },
-    "devDependencies": {
-        "chai": "^4.3.4",
-        "mocha": "^9.1.3",
-        "nyc": "^15.1.0",
-        "ts-node": "^10.4.0",
-        "typescript": "^4.5.2"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:piecioshka/boilerplate-mocha-typescript.git"
-    }
+  "private": true,
+  "name": "boilerplate-mocha-typescript",
+  "description": "",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "coverage": "nyc npm run test && nyc report --reporter=html"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:piecioshka/boilerplate-mocha-typescript.git"
+  }
 }
