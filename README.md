@@ -6,7 +6,7 @@
 
 * :white_check_mark: Mocha `v9.1.3`
 * :white_check_mark: Chai `v4.3.4`
-* :white_check_mark: TypeScript `v4.5.2`
+* :white_check_mark: TypeScript `v4.5.4`
 
 ## Unit tests
 
