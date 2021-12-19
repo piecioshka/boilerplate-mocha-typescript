@@ -1,5 +1,5 @@
 module.exports = {
-    require: 'chai',
+    require: ['chai', 'ts-node/register'],
 
     // ui: 'bdd',
     ui: 'tdd',

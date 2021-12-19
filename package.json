@@ -10,7 +10,7 @@
     "url": "https://piecioshka.pl/"
   },
   "scripts": {
-    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "test": "mocha src/**/*.spec.ts",
     "coverage": "nyc npm run test && nyc report --reporter=html"
   },
   "devDependencies": {
